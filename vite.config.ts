@@ -15,7 +15,7 @@ export default defineConfig(({mode}) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    base: './', // Set base path to relative for GitHub Pages compatibility
+    base: '/QuatationGenerator/', // Set base path for GitHub Pages compatibility
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
